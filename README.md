@@ -16,5 +16,6 @@ Targetfile is: `dist/targetfile.svg`
 npm run watch
 ```
 
-Go to browser: localhost:5000/
+Go to browser: `localhost:5000/`
+
 Now whenever you make changes in the sourcefile, the svg-file will be recreated and the browser reloads
