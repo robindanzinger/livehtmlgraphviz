@@ -1,0 +1,10 @@
+digraph G {
+
+hda -> hda1;
+hda -> hda2;
+hda -> hda3;
+hda -> hda4;
+hda -> hda5;
+hda -> hda6;
+
+}
