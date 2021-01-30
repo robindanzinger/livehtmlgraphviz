@@ -8,14 +8,28 @@ graphviz must be installed
 
 ## Run
 
-Sourcefile Dotfile is: `src/graphviz.viz`
+Sourcefolder is: `src/`
 
-Targetfile is: `dist/targetfile.svg`
+Targetfolder is: `dist/`
+
+Targetfiletype is: `svg`
 
 ```
 npm run watch
 ```
 
-Go to browser: `localhost:5000/`
+Go to browser: `localhost:5000/` 
 
 Now whenever you make changes in the sourcefile, the svg-file will be recreated and the browser reloads
+
+## Config
+You can change the default configuration settings in config.json
+```
+{
+  "src": sourcefolder, default is src
+  "target": targetfolder, default is dist
+  "type": target file type, default is svg
+  "port": server port, default is 5000
+  "wssport": websocket port, default is 5001
+}
+```
