@@ -1,0 +1,7 @@
+{
+"wssport": 5001,
+"port": 5000,
+"src": "src",
+"target": "dist",
+"type": "svg"
+}

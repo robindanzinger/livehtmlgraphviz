@@ -1,0 +1,26 @@
+digraph G {
+
+ rankdir="LR"
+
+ disconnected -> waitforwebform;
+ disconnected -> disconnected;
+
+ waitforwebform -> updating;
+ waitforwebform -> disconnected;
+
+ updating -> errorduringupdate;
+ updating -> connected;
+
+}
+
+//digraph G {
+//
+// rankdir="LR"
+//
+// connected -> updating;
+// errorduringupdate -> updating;
+//
+// updating -> userauthenticationrequired;
+// updating -> connected;
+// updating -> errorduringupdate;
+//}

@@ -2,10 +2,10 @@
   "name": "livehtmlgraphviz",
   "version": "1.0.0",
   "description": "reloads browser for graphviz files",
-  "main": "server.js",
+  "type": "module",
+  "main": "lib/server.js",
   "scripts": {
-    "graphviz": "dot -Tsvg src/graphviz.gviz -o dist/targetfile.svg",
-    "watch": "npm start & nodemon -e gviz --exec npm run graphviz", 
+    "start": "node lib/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Robin Danzinger",
