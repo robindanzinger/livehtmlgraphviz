@@ -3,6 +3,8 @@ Creates svg graphic from DOT-file, display it in browser and refreshes browser i
 
 Just a small helper tool for visualizing graphviz DOT files in browser.
 
+OS: Linux -> uses commandlinetools `xdg-open` and `dot`
+
 ## Prerequisites
 graphviz must be installed
 
