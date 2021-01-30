@@ -1,5 +1,5 @@
 # livehtmlgraphviz
-Creates svg graphic from DOT-file, display it in browser and refreshes browser if DOT-file changes
+Creates svg graphic from DOT-file, displays it in browser and refreshes browser if DOT-file changes
 
 Just a small helper tool for visualizing graphviz DOT files in browser.
 
